@@ -30,7 +30,7 @@ function processInput() {
 
     }
 }
-// add backward compatible event listener to Submit button
+// add backward compatible event listener to Submit button.
 var submitButton = document.getElementById("button");
 if (submitButton.addEventListener) {
     submitButton.addEventListener("click", processInput, false);
